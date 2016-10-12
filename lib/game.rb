@@ -14,4 +14,9 @@ class Game
   def player_2
     @players.last
   end
+
+  def switch_turn
+    @players.reverse!
+  end
+
 end
