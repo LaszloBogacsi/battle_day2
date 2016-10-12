@@ -9,7 +9,4 @@ subject(:mary) { Player.new('Mary') }
       expect(john.name).to eq 'John'
     end
 
-    it 'reduces players hp by 10' do
-      expect{john.attack(mary)}.to change{mary.hp}.by(-10)
-    end
 end
